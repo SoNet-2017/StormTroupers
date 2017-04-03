@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StromTroupers- Sito di progetto</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="projectSite.js"></script>
+
+</head>
+<body>
+
+<header>
+    <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left"  id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large"
+                onclick="w3_close()">Close &times;</button>
+        <a href="#nomeDelProgetto" class="w3-bar-item w3-button">Progetto</a>
+        <a href="#membriTeam" class="w3-bar-item w3-button">Team</a>
+        <a href="#concept" class="w3-bar-item w3-button">Concept</a>
+    </div>
+
+    <div zclass="w3-main" id="headerBlock">
+        <div id="hamburgerSpace">
+            <button id="hamburgerButton" class="w3-button w3-large" onclick="w3_open()">&#9776;</button>
+            <div class="w3-display-container" id="mainTitleBase">
+                <img src="images/StormTroupersIcon-con-linea.png" class="w3-display-right" id="mainTitleLogo">
+                <h1 class="w3-display-middle" id="mainTitle">StormTroupers</h1>
+               <!-- <img src="images/octocat-logo.png" class="w3-display-right w3-button w3-circle" id="gitLink"> -->
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+<div zclass="w3-main" id="main">
+
+    <div class="w3-container" id="mainContainer">
+        <div  id="nomeDelProgetto" class="w3-container">
+            <h3>Progetto stormtroupers</h3>
+            <p>Repository sito di progetto: <a href="https://github.com/SoNet-2017/StormTroupers">https://github.com/SoNet-2017/StormTroupers</a>
+            </p>
+            <p>
+                Repository progetto:<a href="https://github.com/SoNet-2017/StormTroupers-code">https://github.com/SoNet-2017/StormTroupers-code</a>
+            </p>
+        </div>
+        <br>
+        <div  id="membriTeam" class="w3-container">
+            <h3>Membri del team</h3>
+            <div class="w3-responsive">
+                <table class="w3-table-all">
+                    <tr>
+                        <th>Matricola</th>
+                        <th>Nome</th>
+                        <th>Cognome</th>
+                        <th>E-mail</th>
+                        <th>Github</th>
+                    </tr>
+                    <tr>
+                        <td>239432</td>
+                        <td>Matilde</td>
+                        <td>Ugolini</td>
+                        <td>matilde.ugolini@gmail.com</td>
+                        <td>mugolini4</td>
+                    </tr>
+                    <tr>
+                        <td>244221</td>
+                        <td>Edoardo</td>
+                        <td>Battegazzorre</td>
+                        <td>play.different@alice.it</td>
+                        <td>PlayDifferent90</td>
+                    </tr>
+                    <tr>
+                        <td>233534</td>
+                        <td>Giancarlo</td>
+                        <td>Avalle</td>
+                        <td>s233534@studenti.polito.it</td>
+                        <td>s233534</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br>
+        <div id="concept" class="w3-container">
+            <h3>Concept</h3>
+            <h4>Vision</h4>
+            <p></p>
+            <h4>Target</h4>
+            <p></p>
+            <h4>Personae</h4>
+            <p></p>
+            <h4>Scenarios</h4>
+            <p></p>
+        </div>
+
+
+    </div>
+
+
+</div>
+</body>
+</html>
