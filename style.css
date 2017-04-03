@@ -54,7 +54,26 @@
 }
 
 @media screen and (orientation: portrait) {
+
+    #mainTitle{
+        text-align: center;
+        width: auto;
+        font-size: 50pt;
+    }
+
     #mainTitleLogo{
         display: none;
+    }
+
+    #main{
+        font-size: 175%;
+    }
+
+    #main h3{
+        font-size: 40pt;
+    }
+
+    #mySidebar{
+        font-size: 175%;
     }
 }
