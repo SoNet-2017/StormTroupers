@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "ADAM.CG PRO";
+    src: url("font/ADAM.CG PRO.otf");
+}
+
+#mainTitleBase{
+    background-color: #b7c3b8;
+    padding: 50px;
+    vertical-align: middle;
+}
+
+
+#mainTitle{
+    font-family: "ADAM.CG PRO";
+    color: #636466;
+    margin-top: 10px;
+
+}
+
+#mainTitleLogo{
+    max-width: 5%;
+    height: auto;
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    /*background-color: #db928b;*/
+}
+
+
+#mySidebar{
+    color: #636466;
+    display: none;
+}
+
+#hamburgerSpace{
+    background-color: #b7c3b8;
+    color: #636466;
+}
+
+#mainContainer h3{
+    color: #636466;
+    font-family: "ADAM.CG PRO";
+}
+
+#mainContainer h4{
+    font-family: "ADAM.CG PRO";
+    color: #636466;
+}
+
+#mainContainer{
+    color: #636466;
+}
+
+@media screen and (orientation: portrait) {
+    #mainTitleLogo{
+        display: none;
+    }
+}
