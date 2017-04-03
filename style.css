@@ -9,25 +9,22 @@
     vertical-align: middle;
 }
 
-
 #mainTitle{
     font-family: "ADAM.CG PRO";
     color: #636466;
-    margin-top: 10px;
-
+    margin-top: 0;
 }
 
 #mainTitleLogo{
-    max-width: 5%;
+    max-width: 120px;
     height: auto;
     display: inline-block;
-    padding-left: 10px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+    padding-top: 10px;
     padding-right: 10px;
     /*background-color: #db928b;*/
 }
-
 
 #mySidebar{
     color: #636466;
@@ -36,6 +33,19 @@
 
 #hamburgerSpace{
     background-color: #b7c3b8;
+    color: #636466;
+}
+
+#nomeDelProgetto p {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#nomeDelProgetto p a {
+    color: #b7c3b8;
+}
+
+#nomeDelProgetto a:hover{
     color: #636466;
 }
 
@@ -58,22 +68,9 @@
     #mainTitle{
         text-align: center;
         width: auto;
-        font-size: 50pt;
     }
 
     #mainTitleLogo{
         display: none;
-    }
-
-    #main{
-        font-size: 175%;
-    }
-
-    #main h3{
-        font-size: 40pt;
-    }
-
-    #mySidebar{
-        font-size: 175%;
     }
 }
