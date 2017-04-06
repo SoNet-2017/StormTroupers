@@ -3,6 +3,8 @@
     src: url("font/ADAM.CG PRO.otf");
 }
 
+
+
 #mainTitleBase{
     background-color: #b7c3b8;
     padding: 50px;
@@ -61,6 +63,10 @@
 
 #mainContainer{
     color: #636466;
+}
+
+#concept p{
+    text-align: justify;
 }
 
 @media screen and (orientation: portrait) {
