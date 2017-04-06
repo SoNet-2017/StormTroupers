@@ -51,6 +51,10 @@
     color: #636466;
 }
 
+#main{
+    margin-top: 150px;
+}
+
 #mainContainer h3{
     color: #636466;
     font-family: "ADAM.CG PRO";
