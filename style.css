@@ -3,8 +3,6 @@
     src: url("font/ADAM.CG PRO.otf");
 }
 
-
-
 #mainTitleBase{
     background-color: #b7c3b8;
     padding: 50px;
@@ -75,13 +73,22 @@
 }
 
 #personaeParagrafo div{
-    padding-right: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 #personaeParagrafo img{
-    max-width: 180px;
-    height: 180px;
+    max-width: 190px;
+    height: 190px;
     display: inline-block;
+}
+
+#secondPersona {
+    text-align: right;
+}
+
+#slideShow {
+    max-width: 75%;
 }
 
 
