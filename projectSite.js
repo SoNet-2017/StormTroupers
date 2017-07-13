@@ -31,3 +31,8 @@ function w3_close() {
     document.getElementById("headerBlock").style.marginLeft = "0%";
     document.getElementById("mySidebar").style.display = "none";
 }
+
+function openImage (element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+}

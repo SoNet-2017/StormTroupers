@@ -395,18 +395,23 @@
                 <div class="w3-col s12 m12 l12">
                     <div class="w3-left">
                         <div class="w3-col s5 m5 l5" id="s_images_left">
-                            <img class="s_images" src="images/survey-imgs/Ris_Survey_0.jpg">
-                            <img class="s_images" src="images/survey-imgs/Ris_Survey_2.png">
-                            <img class="s_images" src="images/survey-imgs/Ris_Survey_4.png">
-                            <img class="s_images" src="images/survey-imgs/Ris_Survey_6.png">
+                            <img class="s_images" src="images/survey-imgs/Ris_Survey_0.jpg" onclick="openImage(this)">
+                            <img class="s_images" src="images/survey-imgs/Ris_Survey_2.png" onclick="openImage(this)">
+                            <img class="s_images" src="images/survey-imgs/Ris_Survey_4.png" onclick="openImage(this)">
+                            <img class="s_images" src="images/survey-imgs/Ris_Survey_6.png" onclick="openImage(this)">
                         </div>
                         <div class="w3-col s5 m5 l5" id="s_images_right">
-                            <img class="s_images" src="images/survey-imgs/Ris_Survey_1.png">
-                            <img class="s_images" src="images/survey-imgs/Ris_Survey_3.png">
-                            <img class="s_images" src="images/survey-imgs/Ris_Survey_5.png">
+                            <img class="s_images" src="images/survey-imgs/Ris_Survey_1.png" onclick="openImage(this)">
+                            <img class="s_images" src="images/survey-imgs/Ris_Survey_3.png" onclick="openImage(this)">
+                            <img class="s_images" src="images/survey-imgs/Ris_Survey_5.png" onclick="openImage(this)">
                         </div>
                     </div>
-
+                    <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                        <div class="w3-modal-content w3-animate-zoom">
+                            <img id="img01" style="width:100%">
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -544,6 +549,10 @@
                     <hr>
                     <br>
                     <h3>Considerazioni finali</h3><br>
+                        Dalle valutazioni con gli utenti il sito è risultato intuitivo, esteticamente piacevole e di facile navigazione.<br>
+                        Partendo dalle criticità emerse dalla valutazione con gli utenti, abbiamo apportato alcune modifiche, come la grandezza dei pulsanti di ricerca nella barra in alto o la possibilità di andare
+                        alla funzione di ricerca durante la creazione di un nuovo progetto.<br>
+                        Sicuramente si può pensare ad una futura
                 </div>
             </div>
 
