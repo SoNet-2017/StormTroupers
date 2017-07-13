@@ -91,6 +91,20 @@
     max-width: 75%;
 }
 
+.s_images {
+    width:100%;
+    display: inline-block;
+    object-fit: contain;
+    resize: both;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#s_images_left {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 
 @media screen and (orientation: portrait) {
 
