@@ -110,6 +110,11 @@
     margin-right: 5%;
 }
 
+#videoContainer{
+    text-align: center;
+    align-items: center;
+}
+
 
 @media screen and (orientation: portrait) {
 
